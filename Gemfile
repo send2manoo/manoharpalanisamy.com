@@ -26,3 +26,10 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 if RUBY_PLATFORM =~ /linux-musl/
   gem "jekyll-sass-converter", "~> 2.0"
 end
+
+# Start added by @Manohar for Feature/code tab on 7 Feb 2023 10:35 AM
+group :jekyll_plugins do
+  # ... other gems
+  gem "jekyll-tabs"
+end
+# End added by @Manohar for Feature/code tab on 7 Feb 2023 10:35 AM

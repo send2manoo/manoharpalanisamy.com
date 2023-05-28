@@ -4,3 +4,9 @@
 @import '{{ site.theme }}';
 
 /* append your custom style below */
+
+// Start added by @Manohar for Feature/List page Image thumbnail on 5 Feb 2023 20:53 PM
+img.rounded-corners {
+  border-radius: 5px;
+}
+// End added by @Manohar for Feature/List page Image thumbnail on 5 Feb 2023 20:53 PM

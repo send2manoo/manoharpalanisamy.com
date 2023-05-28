@@ -1,0 +1,75 @@
+/* Start added by @Manohar for Feature/code tabs on 7 Feb 2023 10:35 AM  */
+.tab {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -20px;
+    padding: 0;
+    list-style: none;
+    position: relative;
+}
+
+.tab > * {
+    flex: none;
+    padding-left: 20px;
+    position: relative;
+}
+
+.tab > * > a {
+    display: block;
+    text-align: center;
+    padding: 9px 20px;
+    color: #999;
+    border-bottom: 2px solid transparent;
+    border-bottom-color: transparent;
+    font-size: 12px;
+    text-transform: uppercase;
+    transition: color .1s ease-in-out;
+    line-height: 20px;
+}
+
+.tab > .active > a {
+    color:#0fa3eb;
+    border-color: #1e87f0;
+}
+
+.tab > li > a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.tab-content {
+    padding: 0;
+}
+
+.tab-content > li {
+    display: none;
+}
+.tab-content > li.active {
+    display: initial;
+}
+/* End added by @Manohar for Feature/code tabs on 7 Feb 2023 10:35 AM  */
+
+
+/* Start added by @Manohar for Feature/Newsletter text alignement on 21 April 2023 14:46 pM  */
+.subscribe-container {
+  /* padding: 20px; */
+  text-align: center;
+}
+
+.newsletter {
+  margin-top: 20px;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+}
+
+.mastfoot {
+  display: none !important;
+}
+
+.mastfoot > .inner {
+  display: block !important;
+}
+/* End added by @Manohar for Feature/Newsletter text alignement on 21 April 2023 14:46 pM  */
