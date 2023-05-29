@@ -2,7 +2,7 @@
 title: Git Essentials - A Practical Guide to Version Control
 author: Manohar
 date: 2022-11-07 17:35:00 +0530
-categories: [Version Control]
+categories: [Tutorial, Version Control System]
 tags: [Git]
 thumbnail: https://ik.imagekit.io/wrdkwox8l/thumbnails/git_kJiJvL4V4.png?updatedAt=1684846567930
 image:
