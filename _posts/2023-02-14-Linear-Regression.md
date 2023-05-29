@@ -64,3 +64,5 @@ This increases our cost function to 0.58. Plotting several other points yields t
 
 ![Cost Function Representation](/posts/Linear-Regression/cost-function_J91LeTj1m.png){: w="495" h="440" style="border-radius:1%" .shadow}
 *Figure 5 : Cost Function Intuition 1*
+
+## test manohar`
