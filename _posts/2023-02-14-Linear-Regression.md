@@ -2,9 +2,9 @@
 title: Linear Regression
 author: Manohar
 date: 2023-02-14 17:24:00 +0530
-categories: [Machine learning, Tutorial]
+categories: [Tutorial, Machine learning]
 tags: [Linear Regression]
-thumbnail: https://ik.imagekit.io/wrdkwox8l/thumbnails/self_learning_robot_realistic.png
+#thumbnail: https://ik.imagekit.io/wrdkwox8l/thumbnails/self_learning_robot_realistic.png
 image:
   path: /preview_posts/robot.png
   alt: Credits:- Self Learned Machine Learning Robot (openai.com/dall-e-2)

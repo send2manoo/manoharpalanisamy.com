@@ -2,12 +2,12 @@
 title: Getting Started With Machine Learning
 author: Manohar
 date: 2023-02-07 16:54:00 +0530
-categories: [Machine learning]
+categories: [Tutorial, Machine learning]
 tags: [Supervised, UnSupervised]
-thumbnail: https://ik.imagekit.io/wrdkwox8l/thumbnails/self_learning_robot_realistic.png
+#thumbnail: https://ik.imagekit.io/wrdkwox8l/thumbnails/self_learning_robot_realistic.png
 image:
-  path: /preview_posts/robot.png
-  alt: Credits:- Self Learned Machine Learning Robot (openai.com/dall-e-2)
+  path: /preview_posts/machine-learning_5E7mJzsat.jpg
+  alt: Credits:- Self Learned Machine Learning Robot (https://leonardo.ai)
 mermaid: true
 pin: true
 ---

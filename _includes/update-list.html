@@ -29,6 +29,9 @@
         {% assign index = item | split: '::' | last | plus: 0 %}
         {% assign post = site.posts[index] %}
         {% assign url = post.url | relative_url %}
+        <!-- Start added by @Manohar for Feature/List page Image thumbnail on 5 Feb 2023 22:19 PM -->
+	<!-- <a href="{{ post.url | relative_url }}" aria-label="{{ post.title }}"><img src="{{ post.img_path }}" alt="{{ post.img_path }}" width="96" height="96" align="center" class="rounded-corners" /></a> -->
+        <!-- End added by @Manohar for Feature/List page Image thumbnail on 5 Feb 2023 22:19 PM -->
         <li class="text-truncate lh-lg">
           <a href="{{ url }}">{{ post.title }}</a>
         </li>
