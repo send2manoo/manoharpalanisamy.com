@@ -84,7 +84,7 @@ theme_mode:    # [light|dark]
 img_cdn: 'https://ik.imagekit.io/wrdkwox8l'
 
 # the avatar on sidebar, support local or CORS resources
-avatar: '/commons/avatar.jpeg?ik-sdk-version=javascript-1.4.3&updatedAt=1675330073016'
+avatar: '/commons/avatar_NyAQWrjLxT.jpeg'
 
 # boolean type, the global switch for ToC in posts.
 toc: true
