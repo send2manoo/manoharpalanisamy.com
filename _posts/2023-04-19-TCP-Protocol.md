@@ -2,7 +2,7 @@
 title: TCP Connections - How Data Gets From Point A to Point B
 author: Manohar
 date: 2023-03-21 15:20:00 +0530
-categories: [Tutorial, Networking]
+categories: [Networking]
 tags: [TCP Protocol, IP]
 #thumbnail: https://ik.imagekit.io/wrdkwox8l/thumbnails/network-data-transfer.png
 image:

@@ -5,8 +5,9 @@ date: 2023-02-07 16:54:00 +0530
 categories: [Tutorial, Machine learning]
 tags: [Supervised, UnSupervised]
 #thumbnail: https://ik.imagekit.io/wrdkwox8l/thumbnails/self_learning_robot_realistic.png
+img_path: /posts/Machine-Learning/
 image:
-  path: /preview_posts/machine-learning_5E7mJzsat.jpg
+  path: machine-learning_5E7mJzsat.jpg
   alt: Credits:- Self Learned Machine Learning Robot (https://leonardo.ai)
 mermaid: true
 pin: true
@@ -62,7 +63,7 @@ X[X Input]-->|Mapping|Y[Y Output]
 1. Regression
 2. Classification
 
-![Variable](/posts/Machine-Learning/Variables_1iw00cCfw.png){: w="600" h="300" style="border-radius:1%" .shadow}
+![Variable](Variables_1iw00cCfw.png){: w="600" h="300" style="border-radius:1%" .shadow}
 *Figure 2 : Discrete and Continuous Variable*
 
 #### <u>Regression</u>
