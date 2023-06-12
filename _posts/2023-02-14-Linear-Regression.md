@@ -65,3 +65,30 @@ This increases our cost function to 0.58. Plotting several other points yields t
 
 ![Cost Function Representation](cost-function_J91LeTj1m.png){: w="495" h="440" style="border-radius:1%" .shadow}
 *Figure 5 : Cost Function Intuition 1*
+
+
+<div id="thumbnails">
+  <a href="https://ik.imagekit.io/wrdkwox8l/posts/Linear-Regression/cost-function_VXFBRi4h1.png" data-lightbox="thumbnails-gallery" data-title="Gradient Descent"><img src="https://ik.imagekit.io/wrdkwox8l/posts/Linear-Regression/cost-function_VXFBRi4h1.png" style="width:96px; height:96px" alt="Image t3"></a>
+  <a href="https://ik.imagekit.io/wrdkwox8l/posts/Linear-Regression/cost-function_VXFBRi4h1.png" data-lightbox="thumbnails-gallery" data-title="Gradient Descent"><img src="https://ik.imagekit.io/wrdkwox8l/posts/Linear-Regression/cost-function_VXFBRi4h1.png" style="width:96px; height:96px" alt="Image 1"></a>
+  <a href="https://ik.imagekit.io/wrdkwox8l/thumbnails/git_kJiJvL4V4.png" data-lightbox="thumbnails-gallery" data-title="Gradient Descent" data-alt="manohar"><img src="https://ik.imagekit.io/wrdkwox8l/thumbnails/git_kJiJvL4V4.png" style="width:96px; height:96px" alt="Image 1" data-alt="manohar"></a>
+</div> 
+
+<!-- <div id="temp">
+  <a href="https://ik.imagekit.io/wrdkwox8l/posts/Linear-Regression/robot.png?updatedAt=1685598625966" data-lightbox="temp-gallery"><img src="https://ik.imagekit.io/wrdkwox8l/posts/Linear-Regression/robot.png?updatedAt=1685598625966" style="width:96px; height:96px" alt="Image t3"></a>
+  <a href="https://ik.imagekit.io/wrdkwox8l/posts/Linear-Regression/robot.png?updatedAt=1685598625966" data-lightbox="temp-gallery"><img src="https://ik.imagekit.io/wrdkwox8l/posts/Linear-Regression/robot.png?updatedAt=1685598625966" style="width:96px; height:96px" alt="Image 1"></a>
+  <a href="https://ik.imagekit.io/wrdkwox8l/posts/Linear-Regression/robot.png?updatedAt=1685598625966" data-lightbox="temp-gallery"><img src="https://ik.imagekit.io/wrdkwox8l/posts/Linear-Regression/robot.png?updatedAt=1685598625966" style="width:96px; height:96px" alt="Image 1"></a>
+</div> -->
+
+
+<!-- <script>
+  lightbox.option({
+    'wrapAround': false, // Enable or disable wrapping around to the beginning or end of the gallery
+    'alwaysShowNavOnTouchDevices': true, // Show navigation arrows on touch devices (optional)
+    'disableScrolling': true, // Disable scrolling while Lightbox is open (optional)
+    'imageFadeDuration': 200, // Adjust the image fade duration (default: 250ms)
+    'fadeDuration': 200, // Adjust the fade duration (default: 250ms)
+    'resizeDuration': 200, // Adjust the duration of resizing the lightbox (default: 250ms)
+    'maxWidth': 800, // Set the maximum width of the lightbox container (optional)
+    'maxHeight': 600 // Set the maximum height of the lightbox container (optional)
+  });
+</script> -->
