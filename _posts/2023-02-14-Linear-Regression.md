@@ -111,40 +111,41 @@ The way we do this is by taking **the derivative (the tangential line to a funct
 > For example, the distance between each 'star' in the graph above represents a **step** determined by our parameter **α**. A **smaller α** would result in a **smaller step** and a **larger α** results in a **larger step**. The direction in which the step is taken is determined by the partial derivative of $J\left(\theta_0, \theta_1\right)$. Depending on where one starts on the graph, one could end up at different points. The image above shows us two different starting points that end up in two different places. 
 > {: .prompt-info }
 
-The gradient descent algorithm is:
+**The gradient descent algorithm is:**
 
 $$
 \theta_j := \theta_j - \alpha \frac{\partial}{\partial \theta_j} J(\theta_0, \theta_1)
 $$
 
-The derivatives of Gradient Descent Algorithm:
+### The derivatives of Gradient Descent Algorithm
 
-![Gradient Descent For Linear Regression](Gradient_Descent00001_Large_sd4_-QBtOU.png){: w="336" h="352" style="border-radius:2%" .shadow .normal}
-![Gradient Descent For Linear Regression](Gradient_Descent00002_Large_sJQRWrks_.png){: w="336" h="352" style="border-radius:2%" .shadow .normal}
-![Gradient Descent For Linear Regression](Gradient_Descent0003_Large_puEilRJJ7f.png){: w="336" h="352" style="border-radius:2%" .shadow .normal}
-![Gradient Descent For Linear Regression](Gradient_Descent0004_Large_9LZZzLps7.png){: w="336" h="352" style="border-radius:2%" .shadow .normal}
-
-![Calculas Formulas](Calculas_formula_00001_Large_IMARo6w10.png){: w="336" h="144" style="border-radius:2%" .shadow .normal}
-![Calculas Formulas](Calculas_formula_00002_Large_xwMiG5SV2.png){: w="336" h="144" style="border-radius:2%" .shadow .normal}
-![Calculas Formulas](Calculas_formula_00003_Large_ogHVUHwMH.png){: w="336" h="144" style="border-radius:2%" .shadow .normal}
-
-
-<!-- <div id="thumbnails">
+<div id="thumbnails">
   <a href="https://ik.imagekit.io/wrdkwox8l/posts/Linear-Regression/Gradient_Descent00001_Large_sd4_-QBtOU.png?updatedAt=1686639483199" data-lightbox="thumbnails-gallery" data-title="Gradient Descent For Linear Regression"><img src="https://ik.imagekit.io/wrdkwox8l/posts/Linear-Regression/Gradient_Descent00001_Large_sd4_-QBtOU.png?updatedAt=1686639483199" style="width:336px; height:482px; border-radius:2%" alt="Gradient Descent For Linear Regression 1"></a>
   <a href="https://ik.imagekit.io/wrdkwox8l/posts/Linear-Regression/Gradient_Descent00002_Large_sJQRWrks_.png" data-lightbox="thumbnails-gallery" data-title="Gradient Descent For Linear Regression"><img src="https://ik.imagekit.io/wrdkwox8l/posts/Linear-Regression/Gradient_Descent00002_Large_sJQRWrks_.png" style="width:336px; height:482px; border-radius:2%" alt="Gradient Descent For Linear Regression 2"></a>
   <a href="https://ik.imagekit.io/wrdkwox8l/posts/Linear-Regression/Gradient_Descent0003_Large_puEilRJJ7f.png" data-lightbox="thumbnails-gallery" data-title="Gradient Descent For Linear Regression" data-alt="manohar"><img src="https://ik.imagekit.io/wrdkwox8l/posts/Linear-Regression/Gradient_Descent0003_Large_puEilRJJ7f.png" style="width:336px; height:482px; border-radius:2%" alt="Gradient Descent For Linear Regression 3" data-alt="Gradient Descent For Linear Regression 3"></a>
   <a href="https://ik.imagekit.io/wrdkwox8l/posts/Linear-Regression/Gradient_Descent0004_Large_9LZZzLps7.png" data-lightbox="thumbnails-gallery" data-title="Gradient Descent For Linear Regression" data-alt="manohar"><img src="https://ik.imagekit.io/wrdkwox8l/posts/Linear-Regression/Gradient_Descent0004_Large_9LZZzLps7.png" style="width:336px; height:482px; border-radius:2%" alt="Gradient Descent For Linear Regression 4" data-alt="Gradient Descent For Linear Regression 4"></a>
 </div>
 
-### Extra
 
+
+<!-- ![Gradient Descent For Linear Regression](Gradient_Descent00001_Large_sd4_-QBtOU.png){: w="336" h="352" style="border-radius:2%" .shadow .normal}
+![Gradient Descent For Linear Regression](Gradient_Descent00002_Large_sJQRWrks_.png){: w="336" h="352" style="border-radius:2%" .shadow .normal}
+![Gradient Descent For Linear Regression](Gradient_Descent0003_Large_puEilRJJ7f.png){: w="336" h="352" style="border-radius:2%" .shadow .normal}
+![Gradient Descent For Linear Regression](Gradient_Descent0004_Large_9LZZzLps7.png){: w="336" h="352" style="border-radius:2%" .shadow .normal}
+
+![Calculas Formulas](Calculas_formula_00001_Large_IMARo6w10.png){: w="336" h="144" style="border-radius:2%" .shadow .normal}
+![Calculas Formulas](Calculas_formula_00002_Large_xwMiG5SV2.png){: w="336" h="144" style="border-radius:2%" .shadow .normal}
+![Calculas Formulas](Calculas_formula_00003_Large_ogHVUHwMH.png){: w="336" h="144" style="border-radius:2%" .shadow .normal} -->
+
+<!-- ### Extra -->
+<!-- 
 The derivatives basic formulas:
 
 <div id="Derivates">
   <a href="https://ik.imagekit.io/wrdkwox8l/posts/Linear-Regression/Calculas_formula_00001_Large_IMARo6w10.png" data-lightbox="Derivates-gallery" data-title="Derivates"><img src="https://ik.imagekit.io/wrdkwox8l/posts/Linear-Regression/Calculas_formula_00001_Large_IMARo6w10.png" style="width:336px; height:237px; border-radius:2%" alt="Derivates 1"></a>
   <a href="https://ik.imagekit.io/wrdkwox8l/posts/Linear-Regression/Calculas_formula_00002_Large_xwMiG5SV2.png" data-lightbox="Derivates-gallery" data-title="Derivates"><img src="https://ik.imagekit.io/wrdkwox8l/posts/Linear-Regression/Calculas_formula_00002_Large_xwMiG5SV2.png" style="width:336px; height:237px; border-radius:2%" alt="Derivates 2"></a>
   <a href="https://ik.imagekit.io/wrdkwox8l/posts/Linear-Regression/Calculas_formula_00003_Large_ogHVUHwMH.png" data-lightbox="Derivates-gallery" data-title="Derivates" data-alt="manohar"><img src="https://ik.imagekit.io/wrdkwox8l/posts/Linear-Regression/Calculas_formula_00003_Large_ogHVUHwMH.png" style="width:336px; height:237px; border-radius:2%" alt="Derivates 3" data-alt="Derivates 3"></a>
-</div> -->
+</div>  -->
 
 <!-- <script>
   document.addEventListener("DOMContentLoaded", function() {
@@ -162,4 +163,5 @@ The derivatives basic formulas:
     });
   });
 </script> -->
+
 
