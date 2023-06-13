@@ -14,7 +14,7 @@ math: true
 pin: false
 ---
 
-## Linear Regression
+## <u>Linear Regression</u>
 
 Our goal is, given a training set, to learn a function `h : X → Y` so that `h(x)` is a `“good”` predictor for the corresponding value of `y`. For historical reasons, this function `h` is called a `hypothesis`.
 
@@ -26,11 +26,11 @@ h_{\theta }(X) = y
 $$
 
 > Linear regression with `one` variable - `Univariate` linear regression.
-> {: .prompt-tip }
+{: .prompt-tip }
 
 ---
 
-### Cost Function
+### <u>Cost Function</u>
 
 We can measure the `accuracy` of our hypothesis function by using a **cost function**. This takes an average difference (actually a fancier version of an average) of all the results of the hypothesis with inputs from `X's` and the actual output `y's`.
 
@@ -45,12 +45,12 @@ This function is otherwise called the **"Squared error function"**, or **"Mean s
 ![Cost Function Representation](cost-function_kD48BJ4Zn.png){: w="495" h="440" style="border-radius:1%" .shadow}
 *Figure 2 : Cost Function Representation*
 
-### Cost Function - Intuition I
+### <u>Cost Function - Intuition I</u>
 
 If we try to think of it in visual terms, our training data set is scattered on the x-y plane. We are trying to make a straight line (defined by $h_\theta\left(x\right)$ which passes through these scattered data points.
 
 > Our objective is to get the best possible line. The best possible line will be such so that **<mark>the average squared vertical distances of the scattered points from the line will be the least. Ideally, the line should pass through all the points of our training data set. In such a case, the value of $J\left(\theta_0, \theta_1\right)$ will be 0</mark>**. The following example shows the ideal situation where we have a cost function of 0.
-> {: .prompt-info }
+{: .prompt-info }
 
 ![Cost Function Representation](cost-function_NXrsXSCml.png){: w="495" h="440" style="border-radius:1%" .shadow}
 *Figure 3 : Cost Function Intuition 1*
@@ -65,7 +65,7 @@ This increases our cost function to 0.58. Plotting several other points yields t
 ![Cost Function Representation](cost-function_J91LeTj1m.png){: w="495" h="440" style="border-radius:1%" .shadow}
 *Figure 5 : Cost Function Intuition 1*
 
-### Cost Function - Intuition II
+### <u>Cost Function - Intuition II</u>
 
 > A contour plot is a graph that contains many contour lines. A contour line of a two variable function has a constant value at all points of the same line.
 
@@ -89,7 +89,7 @@ The graph above minimizes the cost function as much as possible and consequently
 
 ---
 
-### Gradient Descent
+### <u>Gradient Descent</u>
 
 > We have our hypothesis function and we have a way of measuring how well it fits into the data. Now we need to estimate the parameters in the hypothesis function. That's where gradient descent comes in.
 
@@ -109,15 +109,15 @@ We will know that we have succeeded when our cost function is at the very bottom
 The way we do this is by taking **the derivative (the tangential line to a function) of our cost function**. The slope of the tangent is the derivative at that point and it will give us a direction to move towards. We make steps down the cost function in the direction with the steepest descent. The size of each step is determined by the parameter α, which is called the **learning rate**. 
 
 > For example, the distance between each 'star' in the graph above represents a **step** determined by our parameter **α**. A **smaller α** would result in a **smaller step** and a **larger α** results in a **larger step**. The direction in which the step is taken is determined by the partial derivative of $J\left(\theta_0, \theta_1\right)$. Depending on where one starts on the graph, one could end up at different points. The image above shows us two different starting points that end up in two different places. 
-> {: .prompt-info }
+{: .prompt-info }
 
-**The gradient descent algorithm is:**
+**<u>The gradient descent algorithm is:</u>**
 
 $$
 \theta_j := \theta_j - \alpha \frac{\partial}{\partial \theta_j} J(\theta_0, \theta_1)
 $$
 
-### The derivatives of Gradient Descent Algorithm
+### <u>The derivatives of Gradient Descent Algorithm</u>
 
 <div id="thumbnails">
   <a href="https://ik.imagekit.io/wrdkwox8l/posts/Linear-Regression/Gradient_Descent00001_Large_sd4_-QBtOU.png?updatedAt=1686639483199" data-lightbox="thumbnails-gallery" data-title="Gradient Descent For Linear Regression"><img src="https://ik.imagekit.io/wrdkwox8l/posts/Linear-Regression/Gradient_Descent00001_Large_sd4_-QBtOU.png?updatedAt=1686639483199" style="width:336px; height:482px; border-radius:2%" alt="Gradient Descent For Linear Regression 1"></a>
@@ -125,8 +125,6 @@ $$
   <a href="https://ik.imagekit.io/wrdkwox8l/posts/Linear-Regression/Gradient_Descent0003_Large_puEilRJJ7f.png" data-lightbox="thumbnails-gallery" data-title="Gradient Descent For Linear Regression" data-alt="manohar"><img src="https://ik.imagekit.io/wrdkwox8l/posts/Linear-Regression/Gradient_Descent0003_Large_puEilRJJ7f.png" style="width:336px; height:482px; border-radius:2%" alt="Gradient Descent For Linear Regression 3" data-alt="Gradient Descent For Linear Regression 3"></a>
   <a href="https://ik.imagekit.io/wrdkwox8l/posts/Linear-Regression/Gradient_Descent0004_Large_9LZZzLps7.png" data-lightbox="thumbnails-gallery" data-title="Gradient Descent For Linear Regression" data-alt="manohar"><img src="https://ik.imagekit.io/wrdkwox8l/posts/Linear-Regression/Gradient_Descent0004_Large_9LZZzLps7.png" style="width:336px; height:482px; border-radius:2%" alt="Gradient Descent For Linear Regression 4" data-alt="Gradient Descent For Linear Regression 4"></a>
 </div>
-
-
 
 <!-- ![Gradient Descent For Linear Regression](Gradient_Descent00001_Large_sd4_-QBtOU.png){: w="336" h="352" style="border-radius:2%" .shadow .normal}
 ![Gradient Descent For Linear Regression](Gradient_Descent00002_Large_sJQRWrks_.png){: w="336" h="352" style="border-radius:2%" .shadow .normal}
@@ -138,6 +136,7 @@ $$
 ![Calculas Formulas](Calculas_formula_00003_Large_ogHVUHwMH.png){: w="336" h="144" style="border-radius:2%" .shadow .normal} -->
 
 <!-- ### Extra -->
+
 <!-- 
 The derivatives basic formulas:
 
@@ -163,5 +162,3 @@ The derivatives basic formulas:
     });
   });
 </script> -->
-
-
