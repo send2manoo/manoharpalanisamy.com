@@ -102,7 +102,7 @@ Imagine that we graph our hypothesis function based on its fields $\theta_0$ and
 We put $\theta_0$ on the x axis and $\theta_1$ on the y axis, with the cost function on the vertical z axis. The points on our graph will be the result of the cost function using our hypothesis with those specific theta parameters. The graph below depicts such a setup.
 
 ![Gradient Descent Representation](gradient_descent.png){: w="495" h="440" style="border-radius:2%" .shadow}
-*Figure 9 : Gradient Descent*
+_Figure 9 : Gradient Descent_
 
 We will know that we have succeeded when our cost function is at the very bottom of the pits in our graph, i.e. when its value is the minimum.  The red arrows show the minimum points in the graph.
 
@@ -119,11 +119,21 @@ $$
 
 The derivatives of Gradient Descent Algorithm:
 
-<div id="thumbnails">
-  <a href="https://ik.imagekit.io/wrdkwox8l/posts/Linear-Regression/Gradient_Descent00001_Large_sd4_-QBtOU.png?updatedAt=1686639483199" data-lightbox="thumbnails-gallery" data-title="Gradient Descent For Linear Regression"><img src="https://ik.imagekit.io/wrdkwox8l/posts/Linear-Regression/Gradient_Descent00001_Large_sd4_-QBtOU.png?updatedAt=1686639483199" style="width:144px; height:192px; border-radius:2%" alt="Gradient Descent For Linear Regression 1"></a>
-  <a href="https://ik.imagekit.io/wrdkwox8l/posts/Linear-Regression/Gradient_Descent00002_Large_sJQRWrks_.png" data-lightbox="thumbnails-gallery" data-title="Gradient Descent For Linear Regression"><img src="https://ik.imagekit.io/wrdkwox8l/posts/Linear-Regression/Gradient_Descent00002_Large_sJQRWrks_.png" style="width:144px; height:192px; border-radius:2%" alt="Gradient Descent For Linear Regression 2"></a>
-  <a href="https://ik.imagekit.io/wrdkwox8l/posts/Linear-Regression/Gradient_Descent0003_Large_puEilRJJ7f.png" data-lightbox="thumbnails-gallery" data-title="Gradient Descent For Linear Regression" data-alt="manohar"><img src="https://ik.imagekit.io/wrdkwox8l/posts/Linear-Regression/Gradient_Descent0003_Large_puEilRJJ7f.png" style="width:144px; height:192px; border-radius:2%" alt="Gradient Descent For Linear Regression 3" data-alt="Gradient Descent For Linear Regression 3"></a>
-  <a href="https://ik.imagekit.io/wrdkwox8l/posts/Linear-Regression/Gradient_Descent0004_Large_9LZZzLps7.png" data-lightbox="thumbnails-gallery" data-title="Gradient Descent For Linear Regression" data-alt="manohar"><img src="https://ik.imagekit.io/wrdkwox8l/posts/Linear-Regression/Gradient_Descent0004_Large_9LZZzLps7.png" style="width:144px; height:192px; border-radius:2%" alt="Gradient Descent For Linear Regression 4" data-alt="Gradient Descent For Linear Regression 4"></a>
+![Gradient Descent For Linear Regression](Gradient_Descent00001_Large_sd4_-QBtOU.png){: w="336" h="352" style="border-radius:2%" .shadow .normal}
+![Gradient Descent For Linear Regression](Gradient_Descent00002_Large_sJQRWrks_.png){: w="336" h="352" style="border-radius:2%" .shadow .normal}
+![Gradient Descent For Linear Regression](Gradient_Descent0003_Large_puEilRJJ7f.png){: w="336" h="352" style="border-radius:2%" .shadow .normal}
+![Gradient Descent For Linear Regression](Gradient_Descent0004_Large_9LZZzLps7.png){: w="336" h="352" style="border-radius:2%" .shadow .normal}
+
+![Calculas Formulas](Calculas_formula_00001_Large_IMARo6w10.png){: w="336" h="144" style="border-radius:2%" .shadow .normal}
+![Calculas Formulas](Calculas_formula_00002_Large_xwMiG5SV2.png){: w="336" h="144" style="border-radius:2%" .shadow .normal}
+![Calculas Formulas](Calculas_formula_00003_Large_ogHVUHwMH.png){: w="336" h="144" style="border-radius:2%" .shadow .normal}
+
+
+<!-- <div id="thumbnails">
+  <a href="https://ik.imagekit.io/wrdkwox8l/posts/Linear-Regression/Gradient_Descent00001_Large_sd4_-QBtOU.png?updatedAt=1686639483199" data-lightbox="thumbnails-gallery" data-title="Gradient Descent For Linear Regression"><img src="https://ik.imagekit.io/wrdkwox8l/posts/Linear-Regression/Gradient_Descent00001_Large_sd4_-QBtOU.png?updatedAt=1686639483199" style="width:336px; height:482px; border-radius:2%" alt="Gradient Descent For Linear Regression 1"></a>
+  <a href="https://ik.imagekit.io/wrdkwox8l/posts/Linear-Regression/Gradient_Descent00002_Large_sJQRWrks_.png" data-lightbox="thumbnails-gallery" data-title="Gradient Descent For Linear Regression"><img src="https://ik.imagekit.io/wrdkwox8l/posts/Linear-Regression/Gradient_Descent00002_Large_sJQRWrks_.png" style="width:336px; height:482px; border-radius:2%" alt="Gradient Descent For Linear Regression 2"></a>
+  <a href="https://ik.imagekit.io/wrdkwox8l/posts/Linear-Regression/Gradient_Descent0003_Large_puEilRJJ7f.png" data-lightbox="thumbnails-gallery" data-title="Gradient Descent For Linear Regression" data-alt="manohar"><img src="https://ik.imagekit.io/wrdkwox8l/posts/Linear-Regression/Gradient_Descent0003_Large_puEilRJJ7f.png" style="width:336px; height:482px; border-radius:2%" alt="Gradient Descent For Linear Regression 3" data-alt="Gradient Descent For Linear Regression 3"></a>
+  <a href="https://ik.imagekit.io/wrdkwox8l/posts/Linear-Regression/Gradient_Descent0004_Large_9LZZzLps7.png" data-lightbox="thumbnails-gallery" data-title="Gradient Descent For Linear Regression" data-alt="manohar"><img src="https://ik.imagekit.io/wrdkwox8l/posts/Linear-Regression/Gradient_Descent0004_Large_9LZZzLps7.png" style="width:336px; height:482px; border-radius:2%" alt="Gradient Descent For Linear Regression 4" data-alt="Gradient Descent For Linear Regression 4"></a>
 </div>
 
 ### Extra
@@ -131,26 +141,25 @@ The derivatives of Gradient Descent Algorithm:
 The derivatives basic formulas:
 
 <div id="Derivates">
-  <a href="https://ik.imagekit.io/wrdkwox8l/posts/Linear-Regression/Calculas_formula_00001_Large_IMARo6w10.png" data-lightbox="Derivates-gallery" data-title="Derivates"><img src="https://ik.imagekit.io/wrdkwox8l/posts/Linear-Regression/Calculas_formula_00001_Large_IMARo6w10.png" style="width:192px; height:144px; border-radius:2%" alt="Derivates 1"></a>
-  <a href="https://ik.imagekit.io/wrdkwox8l/posts/Linear-Regression/Calculas_formula_00002_Large_xwMiG5SV2.png" data-lightbox="Derivates-gallery" data-title="Derivates"><img src="https://ik.imagekit.io/wrdkwox8l/posts/Linear-Regression/Calculas_formula_00002_Large_xwMiG5SV2.png" style="width:192px; height:144px; border-radius:2%" alt="Derivates 2"></a>
-  <a href="https://ik.imagekit.io/wrdkwox8l/posts/Linear-Regression/Calculas_formula_00003_Large_ogHVUHwMH.png" data-lightbox="Derivates-gallery" data-title="Derivates" data-alt="manohar"><img src="https://ik.imagekit.io/wrdkwox8l/posts/Linear-Regression/Calculas_formula_00003_Large_ogHVUHwMH.png" style="width:192px; height:144px; border-radius:2%" alt="Derivates 3" data-alt="Derivates 3"></a>
-</div>
-
-<!-- <div id="temp">
-  <a href="https://ik.imagekit.io/wrdkwox8l/posts/Linear-Regression/robot.png?updatedAt=16855986251446" data-lightbox="temp-gallery"><img src="https://ik.imagekit.io/wrdkwox8l/posts/Linear-Regression/robot.png?updatedAt=16855986251446" style="width:144px; height:144px" alt="Image t3"></a>
-  <a href="https://ik.imagekit.io/wrdkwox8l/posts/Linear-Regression/robot.png?updatedAt=16855986251446" data-lightbox="temp-gallery"><img src="https://ik.imagekit.io/wrdkwox8l/posts/Linear-Regression/robot.png?updatedAt=16855986251446" style="width:144px; height:144px" alt="Image 1"></a>
-  <a href="https://ik.imagekit.io/wrdkwox8l/posts/Linear-Regression/robot.png?updatedAt=16855986251446" data-lightbox="temp-gallery"><img src="https://ik.imagekit.io/wrdkwox8l/posts/Linear-Regression/robot.png?updatedAt=16855986251446" style="width:144px; height:144px" alt="Image 1"></a>
+  <a href="https://ik.imagekit.io/wrdkwox8l/posts/Linear-Regression/Calculas_formula_00001_Large_IMARo6w10.png" data-lightbox="Derivates-gallery" data-title="Derivates"><img src="https://ik.imagekit.io/wrdkwox8l/posts/Linear-Regression/Calculas_formula_00001_Large_IMARo6w10.png" style="width:336px; height:237px; border-radius:2%" alt="Derivates 1"></a>
+  <a href="https://ik.imagekit.io/wrdkwox8l/posts/Linear-Regression/Calculas_formula_00002_Large_xwMiG5SV2.png" data-lightbox="Derivates-gallery" data-title="Derivates"><img src="https://ik.imagekit.io/wrdkwox8l/posts/Linear-Regression/Calculas_formula_00002_Large_xwMiG5SV2.png" style="width:336px; height:237px; border-radius:2%" alt="Derivates 2"></a>
+  <a href="https://ik.imagekit.io/wrdkwox8l/posts/Linear-Regression/Calculas_formula_00003_Large_ogHVUHwMH.png" data-lightbox="Derivates-gallery" data-title="Derivates" data-alt="manohar"><img src="https://ik.imagekit.io/wrdkwox8l/posts/Linear-Regression/Calculas_formula_00003_Large_ogHVUHwMH.png" style="width:336px; height:237px; border-radius:2%" alt="Derivates 3" data-alt="Derivates 3"></a>
 </div> -->
 
 <!-- <script>
-  lightbox.option({
-    'wrapAround': false, // Enable or disable wrapping around to the beginning or end of the gallery
-    'alwaysShowNavOnTouchDevices': true, // Show navigation arrows on touch devices (optional)
-    'disableScrolling': true, // Disable scrolling while Lightbox is open (optional)
-    'imageFadeDuration': 200, // Adjust the image fade duration (default: 250ms)
-    'fadeDuration': 200, // Adjust the fade duration (default: 250ms)
-    'resizeDuration': 200, // Adjust the duration of resizing the lightbox (default: 250ms)
-    'maxWidth': 800, // Set the maximum width of the lightbox container (optional)
-    'maxHeight': 600 // Set the maximum height of the lightbox container (optional)
+  document.addEventListener("DOMContentLoaded", function() {
+    lightbox.option({
+      'wrapAround': false,                  // Enable or disable wrapping around to the beginning or end of the gallery
+      'alwaysShowNavOnTouchDevices': true,  // Show navigation arrows on touch devices (optional)
+      'disableScrolling': true,             // Disable scrolling while Lightbox is open (optional)
+      'imageFadeDuration': 200,             // Adjust the image fade duration (default: 250ms)
+      'fadeDuration': 200,                  // Adjust the fade duration (default: 250ms)
+      'resizeDuration': 200,                // Adjust the duration of resizing the lightbox (default: 250ms)
+      'maxWidth': 800,                      // Set the maximum width of the lightbox container (optional)
+      'maxHeight': 600,                     // Set the maximum height of the lightbox container (optional)
+      'fitImagesInViewport': true,            // Fit images within the viewport
+      'imageZoomAnimation': true
+    });
   });
 </script> -->
+
