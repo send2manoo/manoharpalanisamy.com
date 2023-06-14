@@ -7,7 +7,7 @@ tags: [Linear Regression]
 #thumbnail: https://ik.imagekit.io/wrdkwox8l/thumbnails/self_learning_robot_realistic.png
 img_path: /posts/Linear-Regression/
 image:
-  path: robot.png
+  path: robot.heic
   alt: Credits:- Self Learned Machine Learning Robot (openai.com/dall-e-2)
 mermaid: true
 math: true
