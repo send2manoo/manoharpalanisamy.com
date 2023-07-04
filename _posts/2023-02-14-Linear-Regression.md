@@ -16,6 +16,19 @@ pin: true
 
 ## <u>Linear Regression</u>
 
+### Linear Functions
+
+Linear are equations with x and y values raised to the `power of 1` (usually).
+They can be written in Standard Form:
+`Ax + By = C`
+Or Slope-Intercept Form:
+`y = mx + b`
+
+### Non-Linear Function
+
+Non-Linear Equations have x and y values raised to the power of 2 or more.
+The functions form wavy lines of some kind but still pass the vertical line test.
+
 Our goal is, given a training set, to learn a function `h : X → Y` so that `h(x)` is a `“good”` predictor for the corresponding value of `y`. For historical reasons, this function `h` is called a `hypothesis`.
 
 ![Model Representation](Model_representation_kmUIa0Ffj.png){: w="395" h="340" style="border-radius:1%" .shadow}
@@ -50,7 +63,7 @@ This function is otherwise called the **"Squared error function"**, or **"Mean s
 If we try to think of it in visual terms, our training data set is scattered on the x-y plane. We are trying to make a straight line (defined by $h_\theta\left(x\right)$ which passes through these scattered data points.
 
 > Our objective is to get the best possible line. The best possible line will be such so that **<mark>the average squared vertical distances of the scattered points from the line will be the least. Ideally, the line should pass through all the points of our training data set. In such a case, the value of $J\left(\theta_0, \theta_1\right)$ will be 0</mark>**. The following example shows the ideal situation where we have a cost function of 0.
-{: .prompt-info }
+> {: .prompt-info }
 
 ![Cost Function Representation](cost-function_NXrsXSCml.heic){: w="495" h="440" style="border-radius:1%" .shadow}
 *Figure 3 : Cost Function Intuition I*
@@ -109,7 +122,7 @@ We will know that we have succeeded when our cost function is at the very bottom
 The way we do this is by taking **the derivative (the tangential line to a function) of our cost function**. The slope of the tangent is the derivative at that point and it will give us a direction to move towards. We make steps down the cost function in the direction with the steepest descent. The size of each step is determined by the parameter α, which is called the **learning rate**. 
 
 > For example, the distance between each 'star' in the graph above represents a **step** determined by our parameter **α**. A **smaller α** would result in a **smaller step** and a **larger α** results in a **larger step**. The direction in which the step is taken is determined by the partial derivative of $J\left(\theta_0, \theta_1\right)$. Depending on where one starts on the graph, one could end up at different points. The image above shows us two different starting points that end up in two different places. 
-{: .prompt-info }
+> {: .prompt-info }
 
 **<u>The gradient descent algorithm is:</u>**
 
@@ -125,6 +138,15 @@ $$
   <a href="https://ik.imagekit.io/wrdkwox8l/posts/Linear-Regression/Gradient_Descent0003_Upxa6K3T4t.heic" data-lightbox="thumbnails-gallery" data-title="Gradient Descent For Linear Regression" data-alt="manohar"><img src="https://ik.imagekit.io/wrdkwox8l/posts/Linear-Regression/Gradient_Descent0003_Upxa6K3T4t.heic" style="width:336px; height:482px; border-radius:2%" alt="Gradient Descent For Linear Regression 3" data-alt="Gradient Descent For Linear Regression 3"></a>
   <a href="https://ik.imagekit.io/wrdkwox8l/posts/Linear-Regression/Gradient_Descent0004_CMoBGN11r.heic" data-lightbox="thumbnails-gallery" data-title="Gradient Descent For Linear Regression" data-alt="manohar"><img src="https://ik.imagekit.io/wrdkwox8l/posts/Linear-Regression/Gradient_Descent0004_CMoBGN11r.heic" style="width:336px; height:482px; border-radius:2%" alt="Gradient Descent For Linear Regression 4" data-alt="Gradient Descent For Linear Regression 4"></a>
 </div>
+
+**References:**
+
+1. [Slope of a line](https://www.youtube.com/watch?v=ADLoWIxKsyQ){:target="_blank"}
+2. [Slope from an Equation](https://www.youtube.com/watch?v=2iujdS-0nYw){:target="_blank"}
+3. [How to Find Slope from Two Points](https://www.youtube.com/watch?v=8trWFtwyUMU){:target="_blank"}
+4. [Graphing Lines from Slope and y-intercept (y = mx + b)](https://www.youtube.com/watch?v=fNOouV2gYtQ){:target="_blank"}
+5. [Matching Graph to Equations (Simplifying Math)](https://www.youtube.com/watch?v=BfRvPgAfqvY){:target="_blank"}
+6. [Derivatives Made Easy! Power Rule](https://www.youtube.com/watch?v=DfMYt0FpOTE){:target="_blank"}
 
 <!-- ![Gradient Descent For Linear Regression](Gradient_Descent00001_Large_sd4_-QBtOU.png){: w="336" h="352" style="border-radius:2%" .shadow .normal}
 ![Gradient Descent For Linear Regression](Gradient_Descent00002_Large_sJQRWrks_.png){: w="336" h="352" style="border-radius:2%" .shadow .normal}

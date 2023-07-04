@@ -114,10 +114,10 @@ Unsupervised Learning, We can derive the `structure` by `clustering the data`.
 
 **References:**
 
-1. [Machine learning](https://in.coursera.org/learn/machine-learning/)
-2. [Midjourney AI Image Generator Platform ](https://midjourney.com/)
-3. [OpenAI Dall.E 2 AI Image Generator Platform](https://openai.com/dall-e-2/)
-4. [Continuous Variable - Types, Examples and Discrete variables](https://byjus.com/maths/continuous-variable/)
-5. [Real, Irrational, Imaginary  World of Mathematics – Mathigon](https://mathigon.org/world/Real_Irrational_Imaginary)
+1. [Machine learning](https://in.coursera.org/learn/machine-learning/){:target="_blank"}
+2. [Midjourney AI Image Generator Platform ](https://midjourney.com/){:target="_blank"}
+3. [OpenAI Dall.E 2 AI Image Generator Platform](https://openai.com/dall-e-2/){:target="_blank"}
+4. [Continuous Variable - Types, Examples and Discrete variables](https://byjus.com/maths/continuous-variable/){:target="_blank"}
+5. [Real, Irrational, Imaginary  World of Mathematics – Mathigon](https://mathigon.org/world/Real_Irrational_Imaginary){:target="_blank"}
 
 ---
